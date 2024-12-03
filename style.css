@@ -1,0 +1,184 @@
+h1 {
+  color: #d8d8d8;
+}
+
+.titulo {
+  font-size: 60px;
+  font-family: "Rubik Bubbles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.wreapper {
+  padding: 20px 0;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #499b4a;
+}
+
+.login {
+  margin-left: 80%;
+}
+
+
+.container {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+body {
+  background-color: #ade38a;
+}
+
+
+button:hover {
+  background-color: #b6d5ca;
+}
+
+button {
+  border-radius: 20px;
+  background-color: #dcfcec;
+  padding: 0 40px 0 40px;
+  margin-left: 20px;
+  font-size: 13px;
+}
+
+.sofadi-one-regular {
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sobre {
+  font-size: 40px;
+  font-family: "Sofadi One", system-ui;
+}
+
+.lista {
+  width: 1100px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.lista ul {
+  display: inline-block;
+
+}
+
+#listaM {
+  position: relative;
+  padding-left: 20%;
+  margin: auto;
+  height: 400px;
+  min-height: 200px;
+  box-shadow: 10px 10px 5px #000000
+}
+
+h2 {
+
+  font-family: "Syncopate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.med {
+  box-sizing: border-box;
+}
+
+#medicinal1 {
+  margin-left: 180px;
+  padding: 10px 10px;
+  display: inline;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: green;
+  border-width: 2px;
+  border-style: solid;
+  width: 557px;
+}
+
+#medicinal {
+  margin-left: 340px;
+  padding: 10px 10px;
+  display: inline;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: green;
+  border-width: 2px;
+  border-style: solid;
+  width: 500px;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  font-size: 20px;
+  margin: 0 0 10px
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.formulario {
+  align-items: center;
+  padding: 3em;
+  margin: 100px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.checkbox {
+  display: flex;
+  float: left;
+}
+
+.entrar {
+  padding: 10px;
+  width: 100px;
+  margin-left: 50px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  main,
+  .container,
+  .lista,
+  img {
+    width: auto;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  nav {
+    position: static;
+  }
+
+  .lista-bene,
+  .imagembeneficios {
+    width: 100%;
+  }
+}
